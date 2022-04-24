@@ -95,22 +95,12 @@ export const general = [
     icon: <AiOutlineBank size={20} />,
     to: "/banking",
   },
-  {
-    text: "Booking",
-    icon: <GiBookCover size={20} />,
-    to: "/home",
-  },
 ];
 export const appSidebar = [
   {
     text: "Mail",
     icon: <MailOutline size={20} />,
     to: "/app/mail",
-  },
-  {
-    text: "Chat",
-    icon: <Chat size={20} />,
-    to: "/home",
   },
   {
     text: "Calendar",
@@ -133,26 +123,6 @@ export const menegment = [
         title: "Profile",
         to: "/users/profile",
       },
-      {
-        title: "Cards",
-        to: "/home",
-      },
-      {
-        title: "List",
-        to: "/home",
-      },
-      {
-        title: "Create",
-        to: "/home",
-      },
-      {
-        title: "Edit",
-        to: "/home",
-      },
-      {
-        title: "Account",
-        to: "/home",
-      },
     ],
   },
   {
@@ -168,22 +138,6 @@ export const menegment = [
         title: "Product",
         to: "/commerce/Product",
       },
-      {
-        title: "List",
-        to: "/home",
-      },
-      {
-        title: "Create",
-        to: "/home",
-      },
-      {
-        title: "Edit",
-        to: "/home",
-      },
-      {
-        title: "Checkout",
-        to: "/home",
-      },
     ],
   },
   {
@@ -193,19 +147,19 @@ export const menegment = [
     menu: [
       {
         title: "List",
-        to: "/invoice/invoicelist",
+        to: "/invoice/list",
       },
       {
         title: "Details",
-        to: "/invoice/invoicedetails",
+        to: "/invoice/details",
       },
       {
         title: "Create",
-        to: "/invoice/invoicecreate",
+        to: "/invoice/create",
       },
       {
         title: "Edit",
-        to: "/invoice/invoiceedit",
+        to: "/invoice/edit",
       },
     ],
   },
