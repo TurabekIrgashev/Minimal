@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "задача-banking",
+      "appliesTo": "/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "задача-banking",
+      "appliesTo": "/",
+      "type": "launch"
+    }
+  ]
+}
